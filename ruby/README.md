@@ -2,5 +2,5 @@
 ```
 irb
 load 'day2-tree.rb'
-visit family'
+visit family
 ```
