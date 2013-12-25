@@ -1,0 +1,6 @@
+### Ruby, Day 2 ###
+```
+irb
+load 'day2-tree.rb'
+visit family'
+```
