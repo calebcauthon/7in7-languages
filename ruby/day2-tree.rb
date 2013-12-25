@@ -5,14 +5,7 @@ class Tree
 		tree = tree_hash.to_a[0]
 		
 		@node_name = tree[0]
-		
-		slices = []
-		tree[1].to_a.each do |branch|
-			hash = { branch[0] => branch[1] }
-			slices << hash
-		end
-
-		@children = slices.collect { |s| Tree.new(s) }
+		@children = tree[1].to_a.collect { |branch| Tree.new({ branch[0] => branch[1] }) }
 	end
 
 	def visit_all(&block)
