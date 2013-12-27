@@ -35,4 +35,5 @@ io day2-array-addition.io
 # sum of list2 = 199
 # sum of list3 = 10
 # sum of numbers = 221
+# Raise an exception
 ```
