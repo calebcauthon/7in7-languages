@@ -22,3 +22,9 @@ io day2-unless.io
 io day2-fibonacci.io 
 # 1 1 2 3 5 8 13 21 34 55
 ```
+
+```
+io day2-zero-denominator.io
+# 5 / 0 = a huge number
+# 8 / 4 = 2
+```
