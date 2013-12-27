@@ -37,3 +37,9 @@ io day2-array-addition.io
 # sum of numbers = 221
 # Raise an exception
 ```
+
+```
+io day2-2D_list.io 
+board value at 1-1 is white rook
+board value at 4-8 is black queen
+```
