@@ -13,6 +13,7 @@ io day1-0-true-or-false.io
 
 ### Day 2, Io ###
 ```
-io day2-unless-io
-# Obviously 1 isnt 3
+io day2-unless.io
+# Queen Regina will just love later
+# Queen Regina loves again.
 ```
