@@ -11,3 +11,9 @@ irb
 load 'day3-grep.rb'
 print_lines_that_includes 'Latin'
 ```
+
+### Ruby, Day 3 ###
+```
+ruby 'day3-csv.rb'
+# lions
+```

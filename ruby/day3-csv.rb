@@ -33,6 +33,15 @@ module ActsAsCsv
     def initialize
       read 
     end
+
+    def each
+      @csv_contents.collect do |this_row|
+        csv_row = CsvRow.new(this_row, @headers)
+      end.each do |this_csv_row|
+        yield this_csv_row
+      end
+    end
+
   end
 end
 
@@ -41,5 +50,27 @@ class RubyCsv  # no inheritance! You can mix it in
   acts_as_csv
 end
 
+class CsvRow
+  def initialize(row, headers)
+    @row = row
+    @headers = headers
+  end
+
+  def get_header_index_of header 
+    @headers.each_with_index do |this_header, index|
+      return index if this_header == header
+    end
+  end
+
+  def method_missing method, *arguments, &block
+    if @headers.include? method.to_s
+      return @row[get_header_index_of(method.to_s)]
+    end
+    super
+  end
+end
+
 csv = RubyCsv.new
 csv.each {|row| puts row.one}
+
+
