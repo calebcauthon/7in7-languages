@@ -17,3 +17,8 @@ io day2-unless.io
 # Queen Regina will just love later
 # Queen Regina loves again.
 ```
+
+```
+io day2-fibonacci.io 
+# 1 1 2 3 5 8 13 21 34 55
+```
