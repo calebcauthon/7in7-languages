@@ -28,3 +28,11 @@ io day2-zero-denominator.io
 # 5 / 0 = a huge number
 # 8 / 4 = 2
 ```
+
+```
+io day2-array-addition.io 
+# sum of list1 = 12
+# sum of list2 = 199
+# sum of list3 = 10
+# sum of numbers = 221
+```
