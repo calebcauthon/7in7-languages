@@ -43,3 +43,18 @@ io day2-2D_list.io
 board value at 1-1 is white rook
 board value at 4-8 is black queen
 ```
+
+```
+io day3-xml.io 
+   <ul>
+      <li>
+      Io
+      </li>
+      <li>
+      Lua
+      </li>
+      <li>
+      JavaScript
+      </li>
+   </ul>
+```
